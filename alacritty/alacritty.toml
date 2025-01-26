@@ -1,0 +1,5 @@
+[colors.primary]
+        background = "#000000"
+
+[font]
+        normal = { family = "Source Code Pro", style = "Medium" }

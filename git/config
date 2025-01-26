@@ -1,0 +1,5 @@
+[user]
+        name = Andrea Caforio
+        email = andrea.caforio@lowrisc.org
+[init]
+	defaultBranch = main

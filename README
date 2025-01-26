@@ -1,0 +1,1 @@
+stow -t $XDG_CONFIG_HOME config
