@@ -2,3 +2,7 @@
 emacs/*
 !emacs/early-init.el
 !emacs/init.el
+
+# Fish
+fish/*
+!fish/config.fish
