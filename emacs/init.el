@@ -11,6 +11,7 @@
   (setq split-width-threshold 200)
   (setq-default cursor-type 'bar)
   (global-hl-line-mode)
+  (load-theme 'modus-vivendi t)
   :hook
   (prog-mode . column-number-mode)
   (prog-mode . display-line-numbers-mode)
@@ -23,12 +24,6 @@
   :init
   (when (memq window-system '(mac ns x))
     (exec-path-from-shell-initialize)))
-
-(use-package ef-themes
-  :ensure (:repo "https://github.com/protesilaos/ef-themes"))
-(use-package modus-themes
-  :ensure (:repo "https://github.com/protesilaos/modus-themes")
-  :config (load-theme 'modus-vivendi t))
 
 (use-package transient
   :ensure (:repo "https://github.com/magit/transient"))
