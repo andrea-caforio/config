@@ -1,5 +1,5 @@
 [colors.primary]
-        background = "#000000"
+background = "#000000"
 
 [font]
-        normal = { family = "Source Code Pro", style = "Medium" }
+normal = { family = "Source Code Pro", style = "Medium" }
